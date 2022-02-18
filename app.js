@@ -17,7 +17,7 @@
 
 
 
-    app.listen(3001, (req, res) =>{
+    app.listen(process.env.PORT || 3000, (req, res) =>{
         console.log("Mercalo Liebre esta Corriendo!")
 
     })
